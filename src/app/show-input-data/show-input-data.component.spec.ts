@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputInsertComponent } from './input-insert.component';
+import { ShowInputDataComponent } from './show-input-data.component';
 
-describe('InputInsertComponent', () => {
-  let component: InputInsertComponent;
-  let fixture: ComponentFixture<InputInsertComponent>;
+describe('ShowInputDataComponent', () => {
+  let component: ShowInputDataComponent;
+  let fixture: ComponentFixture<ShowInputDataComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InputInsertComponent ]
+      declarations: [ ShowInputDataComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InputInsertComponent);
+    fixture = TestBed.createComponent(ShowInputDataComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -15,6 +15,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrModule } from 'ngx-toastr';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { testComponent } from '../../test/test.component'
+import { ComponentsModule } from '../../components/components.module'
+
 
 @NgModule({
   imports: [
@@ -23,7 +25,8 @@ import { testComponent } from '../../test/test.component'
     FormsModule,
     ChartsModule,
     NgbModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    ComponentsModule
   ],
   declarations: [
     DashboardComponent,
@@ -35,6 +38,7 @@ import { testComponent } from '../../test/test.component'
     MapsComponent,
     NotificationsComponent,
     testComponent,
+  
   ]
 })
 

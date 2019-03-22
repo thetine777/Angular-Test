@@ -12,7 +12,9 @@ import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { InputInsertComponent } from './input-insert/input-insert.component';
+import { ShowInputDataComponent } from './show-input-data/show-input-data.component';
+// import { ButtonHeroComponent } from './components/button-hero/button-hero.component';
+
 
 @NgModule({
   imports: [
@@ -23,13 +25,12 @@ import { InputInsertComponent } from './input-insert/input-insert.component';
     RouterModule,
     AppRoutingModule,
     NgbModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
   ],
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    InputInsertComponent
-
+    ShowInputDataComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
