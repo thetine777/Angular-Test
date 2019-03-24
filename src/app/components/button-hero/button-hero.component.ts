@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button-hero',
@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./button-hero.component.scss']
 })
 export class ButtonHeroComponent implements OnInit {
-
+  @Input() label: string;
   constructor() { }
 
   ngOnInit() {
   }
-
+  
 }

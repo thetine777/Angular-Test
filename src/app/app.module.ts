@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ShowInputDataComponent } from './show-input-data/show-input-data.component';
+
+
 // import { ButtonHeroComponent } from './components/button-hero/button-hero.component';
 
 
@@ -31,6 +33,7 @@ import { ShowInputDataComponent } from './show-input-data/show-input-data.compon
     AppComponent,
     AdminLayoutComponent,
     ShowInputDataComponent,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
